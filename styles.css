@@ -1,0 +1,82 @@
+/* .item-container > .item{
+
+} */
+
+.item  .item-details{
+    margin-right: auto;
+    margin-left: auto;
+    width: 180px;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.searchBar {
+  margin: auto;
+}
+
+.div1 {margin-left: auto;
+    margin-right: auto;
+      width: 300px;
+      height: 100px;
+      border: 1px solid blue;
+      box-sizing: border-box;
+    }
+
+
+
+    /* Kontener formularza */
+.search-form {
+  /* display: flex; */
+  /* justify-content: center; /* Wyrównanie formularza do środka */
+  /* margin: 20px; */ */
+}
+
+/* Kontener paska wyszukiwania */
+.search-bar {
+  /* display: flex; */
+  /* align-items: center; /* Wyrównuje dropdown i input do jednej linii */
+  /* gap: 0; Brak odstępu między elementami */ */
+}
+
+/* Dropdown kategorii */
+.category-dropdown {
+  width: 100%;
+  font-size: 17px;
+   padding: 9px; 
+  border: 1px solid #ccc;
+  border-right: none;
+  /* border-radius: 4px 0 0 4px;  */
+}
+
+/* Pole wyszukiwania */
+.search-input {
+  /* font-size: 20px; */
+  width: 100%;
+  font-size: 16px;
+  padding: 9px; 
+  border: 1px solid #ccc;
+  
+  
+  /* flex-grow: 1; Umożliwia automatyczne rozszerzanie pola wyszukiwania */
+}
+
+/* Przycisk wyszukiwania */
+.search-button {
+  border: none;
+   padding: 9px 20px; 
+  border: 1px solid #ccc;
+  border-left: none; 
+  background-color: #ff5722;
+  color: white;
+  /* cursor: pointer; */
+  /* border-radius: 0 4px 4px 0; Zaokrąglenie tylko prawego górnego i dolnego rogu */
+  font-size: 16px;
+}
+
+/* Zmiana koloru przycisku po najechaniu */
+.search-button:hover {
+  background-color: #e64a19;
+}
